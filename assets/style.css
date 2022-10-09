@@ -1,0 +1,44 @@
+.footer-title > ul {
+    display: flex;
+    padding-top: 25px;
+}
+
+.footer-title > ul > li {
+    margin-left: 35px;
+}
+
+.footer-title > ul > li > a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.footer-title > ul > :first-child{
+    list-style: none;
+}
+
+.footer-title > ul ::marker {
+    font-size: 15px;
+}
+
+.footer-about {
+    display: flex;
+}
+
+.footer-about {
+    margin-left: 35px;
+}
+.social {
+    position: right;
+}
+.social > ul {
+    list-style: none;
+    display: flex;
+    margin-left: 700px;
+}
+.social > ul > li {
+    margin-left: 20px;
+    right: 50px;
+}
+.fa-brands {
+    font-size: 30px;
+}
